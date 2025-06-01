@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brew Haven - Artisan Coffee Experience</title>
+    <meta name="description" content="Experience the finest artisan coffee, handcrafted pastries, and warm atmosphere at Brew Haven. Your perfect coffee moment awaits.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="img/logo.png">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loading-content">
+            <img src="img/logo.png" alt="Brew Haven" class="loading-logo">
+            <div class="loading-text">Brewing Excellence...</div>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <div class="logo">
+                <img src="img/logo.png" alt="Brew Haven Logo">
+                <div class="logo-text">
+                    <h1>Brew Haven</h1>
+                    <span>Artisan Coffee</span>
+                </div>
+            </div>
+            <nav>
+                <div class="menu-toggle" id="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#menu" class="nav-link">Menu</a></li>
+                    <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                    <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+                    <li><a href="#hours" class="nav-link">Hours</a></li>
+                    <li><a href="#location" class="nav-link">Location</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="header-actions">
+                    <a href="#order" class="btn btn-primary">Order Online</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span>✨ Award-Winning Coffee</span>
+                </div>
+                <h1 class="hero-title">
+                    Crafting Perfect Moments,<br>
+                    <span class="highlight">One Cup at a Time</span>
+                </h1>
+                <p class="hero-description">
+                    Experience the finest artisan coffee, handcrafted pastries, and warm atmosphere 
+                    in the heart of the city. Where every sip tells a story of passion and excellence.
+                </p>
+                <div class="hero-actions">
+                    <a href="#menu" class="btn btn-primary btn-large">
+                        <span>Explore Menu</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                    <a href="#about" class="btn btn-secondary btn-large">
+                        <span>Our Story</span>
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <div class="stat-number">15+</div>
+                        <div class="stat-label">Coffee Varieties</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">5★</div>
+                        <div class="stat-label">Customer Rating</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">8</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">☕</div>
+                    <h3>Premium Beans</h3>
+                    <p>Sourced directly from sustainable farms worldwide</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">👨‍🍳</div>
+                    <h3>Expert Baristas</h3>
+                    <p>Trained professionals passionate about coffee craft</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🥐</div>
+                    <h3>Fresh Pastries</h3>
+                    <p>Handmade daily with finest ingredients</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🏠</div>
+                    <h3>Cozy Atmosphere</h3>
+                    <p>Perfect space for work, meetings, or relaxation</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Our Story</span>
+                <h2 class="section-title">The Art of Perfect Coffee</h2>
+                <p class="section-description">
+                    Every great cup of coffee begins with passion, precision, and the finest ingredients
+                </p>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="img/about.jpg" alt="Coffee brewing process" class="fade-in">
+                    <div class="image-overlay">
+                        <div class="play-button">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M8 5v14l11-7z" fill="currentColor"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <div class="about-stats">
+                        <div class="about-stat">
+                            <span class="stat-number">2015</span>
+                            <span class="stat-label">Founded</span>
+                        </div>
+                        <div class="about-stat">
+                            <span class="stat-number">50k+</span>
+                            <span class="stat-label">Happy Customers</span>
+                        </div>
+                    </div>
+                    <h3>Our Coffee Journey</h3>
+                    <p>
+                        Founded in 2015, Brew Haven began with a simple yet profound mission: to serve exceptional 
+                        coffee in a welcoming space that feels like home. We believe that great coffee is more than 
+                        just a beverage—it's a moment of connection, creativity, and comfort.
+                    </p>
+                    <p>
+                        Our beans are sourced directly from sustainable farms around the world, ensuring both 
+                        exceptional quality and ethical practices. Every cup is carefully crafted by our trained 
+                        baristas who are passionate about the art and science of coffee making.
+                    </p>
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <span class="feature-check">✓</span>
+                            <span>Direct trade partnerships</span>
+                        </div>
+                        <div class="about-feature">
+                            <span class="feature-check">✓</span>
+                            <span>Sustainable sourcing</span>
+                        </div>
+                        <div class="about-feature">
+                            <span class="feature-check">✓</span>
+                            <span>Expert roasting techniques</span>
+                        </div>
+                    </div>
+                    <a href="#menu" class="btn btn-primary">Explore Our Menu</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Our Menu</span>
+                <h2 class="section-title">Crafted with Passion</h2>
+                <p class="section-description">
+                    From signature lattes to artisan pastries, every item is made with love and expertise
+                </p>
+            </div>
+            <div class="menu-filters">
+                <button class="filter-btn active" data-filter="all">All Items</button>
+                <button class="filter-btn" data-filter="coffee">Coffee</button>
+                <button class="filter-btn" data-filter="tea">Tea</button>
+                <button class="filter-btn" data-filter="pastry">Pastries</button>
+            </div>
+            <div class="menu-items" id="menu-items">
+                <!-- Coffee Items -->
+                <div class="menu-item" data-category="coffee">
+                    <div class="menu-item-image">
+                        <img src="img/coffee-1.jpg" alt="Signature Latte">
+                        <div class="menu-item-overlay">
+                            <button class="quick-order-btn">Quick Order</button>
+                        </div>
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3>Signature Latte</h3>
+                            <span class="price">$4.75</span>
+                        </div>
+                        <p>Espresso with steamed milk and beautiful latte art, crafted by our expert baristas</p>
+                        <div class="menu-item-tags">
+                            <span class="tag">Popular</span>
+                            <span class="tag">Dairy</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="coffee">
+                    <div class="menu-item-image">
+                        <img src="img/coffee-2.jpg" alt="Holiday Spiced Coffee">
+                        <div class="menu-item-overlay">
+                            <button class="quick-order-btn">Quick Order</button>
+                        </div>
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3>Holiday Spiced Coffee</h3>
+                            <span class="price">$5.25</span>
+                        </div>
+                        <p>Seasonal blend with whipped cream, warm spices, and festive decorations</p>
+                        <div class="menu-item-tags">
+                            <span class="tag">Seasonal</span>
+                            <span class="tag">Limited</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="coffee">
+                    <div class="menu-item-image">
+                        <img src="img/coffee-3.jpg" alt="Iced Coffee Delight">
+                        <div class="menu-item-overlay">
+                            <button class="quick-order-btn">Quick Order</button>
+                        </div>
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3>Iced Coffee Delight</h3>
+                            <span class="price">$4.95</span>
+                        </div>
+                        <p>Cold brew with whipped cream, chocolate shavings, and fresh mint</p>
+                        <div class="menu-item-tags">
+                            <span class="tag">Cold</span>
+                            <span class="tag">Refreshing</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="coffee">
+                    <div class="menu-item-image">
+                        <img src="img/coffee-4.jpg" alt="Layered Cappuccino">
+                        <div class="menu-item-overlay">
+                            <button class="quick-order-btn">Quick Order</button>
+                        </div>
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3>Layered Cappuccino</h3>
+                            <span class="price">$4.50</span>
+                        </div>
+                        <p>Perfect layers of espresso, steamed milk, and velvety foam</p>
+                        <div class="menu-item-tags">
+                            <span class="tag">Classic</span>
+                            <span class="tag">Strong</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tea Items -->
+                <div class="menu-item" data-category="tea">
+                    <div class="menu-item-image">
+                        <img src="img/tea-1.jpg" alt="Premium Green Tea">
+                        <div class="menu-item-overlay">
+                            <button class="quick-order-btn">Quick Order</button>
+                        </div>
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3>Premium Green Tea</h3>
+                            <span class="price">$3.75</span>
+                        </div>
+                        <p>Delicate flowering tea with natural sweetness and antioxidants</p>
+                        <div class="menu-item-tags">
+                            <span class="tag">Healthy</span>
+                            <span class="tag">Organic</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="tea">
+                    <div class="menu-item-image">
+                        <img src="img/tea-2.jpg" alt="Honey Lemon Tea">
+                        <div class="menu-item-overlay">
+                            <button class="quick-order-btn">Quick Order</button>
+                        </div>
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3>Honey Lemon Tea</h3>
+                            <span class="price">$3.95</span>
+                        </div>
+                        <p>Warming herbal blend with natural honey and fresh lemon</p>
+                        <div class="menu-item-tags">
+                            <span class="tag">Soothing</span>
+                            <span class="tag">Natural</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pastry Items -->
+                <div class="menu-item" data-category="pastry">
+                    <div class="menu-item-image">
+                        <img src="img/pastry-1.jpg" alt="Apple Rose Pastries">
+                        <div class="menu-item-overlay">
+                            <button class="quick-order-btn">Quick Order</button>
+                        </div>
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3>Apple Rose Pastries</h3>
+                            <span class="price">$4.25</span>
+                        </div>
+                        <p>Delicate puff pastry roses with cinnamon, apple, and powdered sugar</p>
+                        <div class="menu-item-tags">
+                            <span class="tag">Handmade</span>
+                            <span class="tag">Sweet</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="pastry">
+                    <div class="menu-item-image">
+                        <img src="img/pastry-2.jpg" alt="Strawberry Eclairs">
+                        <div class="menu-item-overlay">
+                            <button class="quick-order-btn">Quick Order</button>
+                        </div>
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3>Fresh Strawberry Eclairs</h3>
+                            <span class="price">$3.95</span>
+                        </div>
+                        <p>Light choux pastry filled with cream and topped with fresh strawberries</p>
+                        <div class="menu-item-tags">
+                            <span class="tag">Fresh</span>
+                            <span class="tag">Creamy</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-cta">
+                <p>Can't find what you're looking for?</p>
+                <a href="#contact" class="btn btn-secondary">Custom Orders</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Gallery</span>
+                <h2 class="section-title">Coffee Artistry</h2>
+                <p class="section-description">
+                    A visual journey through our coffee craftsmanship and cozy atmosphere
+                </p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item large">
+                    <img src="img/coffee-shop.jpg" alt="Coffee Shop Interior">
+                    <div class="gallery-overlay">
+                        <h3>Our Cozy Interior</h3>
+                        <p>Perfect space for work and relaxation</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="img/coffee-1.jpg" alt="Latte Art">
+                    <div class="gallery-overlay">
+                        <h3>Latte Art</h3>
+                        <p>Handcrafted perfection</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="img/pastry-1.jpg" alt="Fresh Pastries">
+                    <div class="gallery-overlay">
+                        <h3>Fresh Pastries</h3>
+                        <p>Made daily with love</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="img/tea-1.jpg" alt="Tea Service">
+                    <div class="gallery-overlay">
+                        <h3>Premium Teas</h3>
+                        <p>Finest tea selection</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="img/coffee-3.jpg" alt="Iced Coffee">
+                    <div class="gallery-overlay">
+                        <h3>Cold Brews</h3>
+                        <p>Refreshing perfection</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Testimonials</span>
+                <h2 class="section-title">What Our Customers Say</h2>
+                <p class="section-description">
+                    Real stories from our coffee-loving community
+                </p>
+            </div>
+            <div class="testimonials-slider">
+                <div class="testimonial active">
+                    <div class="testimonial-content">
+                        <div class="stars">★★★★★</div>
+                        <p>"The best coffee in the city! The atmosphere is perfect for working, and the baristas really know their craft. My daily latte is always perfect."</p>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <h4>Sarah Johnson</h4>
+                                <span>Regular Customer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <div class="stars">★★★★★</div>
+                        <p>"Brew Haven has become my second home. The coffee is exceptional, the pastries are divine, and the staff treats you like family."</p>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <h4>Michael Chen</h4>
+                                <span>Coffee Enthusiast</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <div class="stars">★★★★★</div>
+                        <p>"I've tried coffee shops all over the world, and Brew Haven stands out for its quality, atmosphere, and genuine passion for coffee."</p>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <h4>Emma Rodriguez</h4>
+                                <span>Travel Blogger</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-controls">
+                <button class="testimonial-btn active" data-slide="0"></button>
+                <button class="testimonial-btn" data-slide="1"></button>
+                <button class="testimonial-btn" data-slide="2"></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hours Section -->
+    <section id="hours" class="hours">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Visit Us</span>
+                <h2 class="section-title">Opening Hours</h2>
+                <p class="section-description">
+                    We're here to serve you the perfect cup every day of the week
+                </p>
+            </div>
+            <div class="hours-content">
+                <div class="hours-table">
+                    <div class="hours-row">
+                        <div class="day">Monday - Friday</div>
+                        <div class="time">7:00 AM - 8:00 PM</div>
+                        <div class="status open">Open</div>
+                    </div>
+                    <div class="hours-row">
+                        <div class="day">Saturday</div>
+                        <div class="time">8:00 AM - 9:00 PM</div>
+                        <div class="status open">Open</div>
+                    </div>
+                    <div class="hours-row">
+                        <div class="day">Sunday</div>
+                        <div class="time">8:00 AM - 6:00 PM</div>
+                        <div class="status open">Open</div>
+                    </div>
+                    <div class="special-hours">
+                        <h4>Special Hours</h4>
+                        <p>Holiday hours may vary. Check our social media for updates.</p>
+                    </div>
+                </div>
+                <div class="hours-image">
+                    <img src="img/coffee-shop.jpg" alt="Inside our coffee shop">
+                    <div class="hours-overlay">
+                        <div class="current-status">
+                            <span class="status-indicator"></span>
+                            <span class="status-text">Currently Open</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section id="location" class="location">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Find Us</span>
+                <h2 class="section-title">Visit Our Coffee Haven</h2>
+                <p class="section-description">
+                    Located in the heart of the city, we're easy to find and worth the journey
+                </p>
+            </div>
+            <div class="location-content">
+                <div class="map-container">
+    <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2443.0456391087307!2d20.99804857677055!3d52.23238747199648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecc8c92692e49%3A0xc2e97552d5104380!2sCafe%20Kafka!5e0!3m2!1sen!2spl!4v1717252345678!5m2!1sen!2spl" 
+        width="100%" 
+        height="450" 
+        style="border:0; border-radius: var(--border-radius-xl);" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+    <div class="map-overlay">
+        <a href="https://goo.gl/maps/YQu5R8fKgJMfgJSS6" target="_blank" class="map-btn">View in Google Maps</a>
+    </div>
+</div>
+                <div class="location-info">
+                    <div class="address-card">
+                        <h3>Our Address</h3>
+                        <div class="address">
+                            <p>123 Coffee Street<br>Downtown District<br>City, State 12345</p>
+                        </div>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <span class="icon">📞</span>
+                                <div>
+                                    <strong>Phone</strong>
+                                    <p>+48720866592</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <span class="icon">✉️</span>
+                                <div>
+                                    <strong>Email</strong>
+                                    <p>azenko0609@gmail.com</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="location-actions">
+                            <a href="https://maps.google.com" target="_blank" class="btn btn-primary">Get Directions</a>
+                            <a href="tel:+15551234567" class="btn btn-secondary">Call Us</a>
+                        </div>
+                    </div>
+                    <div class="parking-info">
+                        <h4>Parking & Transportation</h4>
+                        <ul>
+                            <li>✓ Free street parking available</li>
+                            <li>✓ Public parking garage nearby</li>
+                            <li>✓ Metro station 2 blocks away</li>
+                            <li>✓ Bike racks at entrance</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Get in Touch</span>
+                <h2 class="section-title">Contact Us</h2>
+                <p class="section-description">
+                    Have questions, feedback, or special requests? We'd love to hear from you
+                </p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <h3>Let's Connect</h3>
+                        <p>Whether you have questions about our menu, want to book a private event, or just want to say hello, we're here for you.</p>
+                        
+                        <div class="contact-methods">
+                            <div class="contact-method">
+                                <div class="method-icon">📞</div>
+                                <div class="method-info">
+                                    <h4>Call Us</h4>
+                                    <p>+48720866592</p>
+                                    <span>Mon-Fri: 7AM-8PM</span>
+                                </div>
+                            </div>
+                            <div class="contact-method">
+                                <div class="method-icon">✉️</div>
+                                <div class="method-info">
+                                    <h4>Email Us</h4>
+                                    <p>azenko0609@gmail.com</p>
+                                    <span>We reply within 24 hours</span>
+                                </div>
+                            </div>
+                            <div class="contact-method">
+                                <div class="method-icon">📍</div>
+                                <div class="method-info">
+                                    <h4>Visit Us</h4>
+                                    <p>123 Coffee Street</p>
+                                    <span>Downtown District</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="social-links">
+                            <h4>Follow Us</h4>
+                            <div class="social-grid">
+                                <a href="#" class="social-link facebook">
+                                    <span class="social-icon">f</span>
+                                    <span>Facebook</span>
+                                </a>
+                                <a href="https://www.instagram.com/sa_sha698d?igsh=MWVyNGo4NzF4NGludg%3D%3D&utm_source=qr" class="social-link instagram">
+                                    <span class="social-icon">📷</span>
+                                    <span>Instagram</span>
+                                </a>
+                                <a href="#" class="social-link twitter">
+                                    <span class="social-icon">🐦</span>
+                                    <span>Twitter</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm" action="contact.php" method="POST">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName">First Name</label>
+                                <input type="text" id="firstName" name="firstName" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">Last Name</label>
+                                <input type="text" id="lastName" name="lastName" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number (Optional)</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select a subject</option>
+                                <option value="general">General Inquiry</option>
+                                <option value="catering">Catering Services</option>
+                                <option value="events">Private Events</option>
+                                <option value="feedback">Feedback</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Tell us how we can help you..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-large">
+                            <span>Send Message</span>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/>
+                            </svg>
+                        </button>
+                        <div id="formStatus" class="form-status"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <div class="newsletter-text">
+                    <h3>Stay in the Loop</h3>
+                    <p>Get the latest updates on new menu items, special events, and exclusive offers</p>
+                </div>
+                <form class="newsletter-form" id="newsletterForm">
+                    <div class="newsletter-input">
+                        <input type="email" placeholder="Enter your email address" required>
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </div>
+                    <p class="newsletter-privacy">We respect your privacy. Unsubscribe at any time.</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="img/logo.png" alt="Brew Haven Logo">
+                        <div class="logo-text">
+                            <h3>Brew Haven</h3>
+                            <span>Artisan Coffee</span>
+                        </div>
+                    </div>
+                    <p>Crafting perfect moments, one cup at a time. Experience the finest artisan coffee and warm atmosphere in the heart of the city.</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-icon">f</a>
+                        <a href="https://www.instagram.com/sa_sha698d?igsh=MWVyNGo4NzF4NGludg%3D%3D&utm_source=qr" class="social-icon">📷</a>
+                        <a href="#" class="social-icon">🐦</a>
+                        <a href="#" class="social-icon">in</a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="#order">Online Ordering</a></li>
+                        <li><a href="#catering">Catering</a></li>
+                        <li><a href="#events">Private Events</a></li>
+                        <li><a href="#loyalty">Loyalty Program</a></li>
+                        <li><a href="#gift">Gift Cards</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="footer-contact">
+                        <p>📍 123 Coffee Street<br>Downtown District<br>City, State 12345</p>
+                        <p>📞 +48720866592</p>
+                        <p>✉️ azenko0609@gmail.com</p>
+                    </div>
+                    <div class="footer-hours">
+                        <h5>Hours</h5>
+                        <p>Mon-Fri: 7AM-8PM<br>Sat: 8AM-9PM<br>Sun: 8AM-6PM</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p>&copy; 2023 Brew Haven Coffee Shop. All rights reserved.</p>
+                    <div class="footer-legal">
+                        <a href="#privacy">Privacy Policy</a>
+                        <a href="#terms">Terms of Service</a>
+                        <a href="#accessibility">Accessibility</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M18 15l-6-6-6 6"/>
+        </svg>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
